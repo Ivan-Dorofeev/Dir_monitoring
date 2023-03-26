@@ -5,7 +5,8 @@
 Сервер отслеживает изменение файлов в папках (изменение, создвание, удаление).
 При изменении выводит что изменилось и новое дерево файлов и папок:
 
-[image](https://user-images.githubusercontent.com/58893102/227770554-08b65f6a-42f2-451f-812d-1c78f6b5263f.png)
+
+<img width="75%" alt="image" src="https://github.com/Ivan-Dorofeev/Dir_monitoring/blob/master/gif.gif">
 
 ## Установка
 Для постоянного мониторинга используется библиотека --> [watchdog](https://github.com/gorakhargosh/watchdog)
