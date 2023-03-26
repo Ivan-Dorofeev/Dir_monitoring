@@ -13,8 +13,7 @@ class Handler(FileSystemEventHandler):
     def on_any_event(self, event):
         if not event.event_type in ['opened', 'closed', 'modified']:
             cprint.info('Изменения в директории', event.event_type, event.src_path)
-            dir_path = self.path
-            for path, dir, file in sorted(os.walk(dir_path)):
+            for path, dir, file in sorted(os.walk(self.path)):
                 if path:
                     print(path)
                 if file:
