@@ -16,3 +16,7 @@
   ```python monitoring_console.py ./1```
 
   >(./1 - указываем путь для мониторинга. По умолчанию './')
+
+Для вывода в браузер, запустите:
+
+  ```pythonmonitoring_browser.py```
