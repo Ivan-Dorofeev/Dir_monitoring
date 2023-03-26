@@ -13,6 +13,6 @@
 
 ## Запуск
  
-  **python monitoring_console.py ./1**
+  ```python monitoring_console.py ./1```
 
   >(./1 - указываем путь для мониторинга. По умолчанию './')
